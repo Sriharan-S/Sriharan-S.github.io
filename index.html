@@ -39,11 +39,11 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#agni">Agni Bot</a></li>
-          <li><a href="#jollybot">Jolly Bot</a></li>
-          <li><a href="#safeguard">Safeguard AI</a></li>
-          <li><a href="#ecodrive">Ecodrive Assist</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#agni" onclick="agni()">Agni Bot</a></li>
+          <li><a href="#jollybot" onclick="jolly()">Jolly Bot</a></li>
+          <li><a href="#safeguard" onclick="safe()">Safeguard AI</a></li>
+          <li><a href="#ecodrive" onclick="ecodrive()">Ecodrive Assist</a></li>
+          <li><a href="#elements">Elements</a></li>
           <li><a href="#contact">Contact</a></li>
           <!--<li><a href="#elements">Elements</a></li>-->
         </ul>
@@ -439,6 +439,30 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     particlesJS.load("new", "assets/particles.json", function () {
       console.log("callback - particles.js config loaded");
     });
+
+    function agni() {
+      particlesJS.load("new", "assets/agni.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    }
+
+    function jolly() {
+      particlesJS.load("new", "assets/jolly.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    }
+
+    function safe() {
+      particlesJS.load("new", "assets/safeguard.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    }
+
+    function ecodrive() {
+      particlesJS.load("new", "assets/ecodrive.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    }
   </script>
 </body>
 
