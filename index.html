@@ -43,6 +43,7 @@
           <li><a href="#jollybot" onclick="jolly()">Jolly Bot</a></li>
           <li><a href="#safeguard" onclick="safe()">Safeguard AI</a></li>
           <li><a href="#ecodrive" onclick="ecodrive()">Ecodrive Assist</a></li>
+          <li><a href="#tba" onclick="some()">To Be Added</a></li>
         </ul>
       </nav>
     </header>
@@ -151,6 +152,12 @@
 
     function ecodrive() {
       particlesJS.load("new", "assets/ecodrive.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    }
+	  
+    function some() {
+      particlesJS.load("new", "assets/some.json", function () {
         console.log("callback - particles.js config loaded");
       });
     }
